@@ -1,37 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <title> Huellas Sanas </title>
 </head>
+
 <body>
     // Seccion de Miguel
-    <div class = "navbar">
+    <div class="portada">
         <h1> Huellas Sanas </h1>
-        <p> Bienvenidos a Huellas Sanas, un refugio para mascotas sin hogar. Nuestro objetivo es proporcionar un hogar amoroso y seguro para perros y gatos abandonados, ayudándolos a encontrar familias adoptivas que les brinden el cariño que merecen. En Huellas Sanas, creemos que cada animal merece una segunda oportunidad, y trabajamos incansablemente para rescatar, cuidar y reubicar a nuestros amigos peludos en hogares felices. Únete a nosotros en esta noble causa y juntos podemos hacer la diferencia en la vida de estos adorables compañeros. </p>
+        <p> Bienvenidos a Huellas Sanas, un blog dedicado al cuidado de las mascotas</p>
     </div>
-    <div class = "section">
-        // Sección de felipe
-        <p> En esta sección, Felipe comparte su experiencia como voluntario en Huellas Sanas. Desde el momento en que se unió al refugio, ha sido testigo de innumerables historias de rescate y adopción que han tocado su corazón. Felipe se dedica a cuidar a los animales, brindándoles amor y atención mientras esperan encontrar un hogar permanente. A través de su trabajo, ha aprendido sobre la importancia de la empatía y la compasión hacia los animales, y se siente agradecido por la oportunidad de marcar una diferencia positiva en sus vidas. </p>
-    </div>
-    <div class = "section">
+    <section class="portada2 ">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 > Patitas Felices</h1>
+                    <p> Un blog dedicado al cuidado y bienestar de perros y gatos. Aprende consejos para darles una vida saludable y llena de amor.</p>
+                    <a href="#etapas" class="btn btn-success btn-lg mt-3"> Conoce más</a>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <img src="../huellasSanas/perroygato.png" class="img-fluid rounded-4 shadow" alt="Perro y gato">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-5 mascotas" id="etapas">
+        <div class="container">
+            <div class="text-center">
+                <h2>Cuidados según la etapa de tu mascota</h2>
+                <p>Aprende cómo cuidar a tu perro o gato según su edad.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card shadow border-0 h-100">
+                        <img src="../huellasSanas/cachorro1.jpg" class="card-img-top" alt="Cachorro">
+                        <div class="card-body text-center">
+                            <h3 class="card-title">Cachorro</h3>
+                            <a href="#cachorro" class="btn btn-success">Ver cuidados</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow border-0 h-100">
+                        <img src="../huellasSanas/adulto1.jpg" class="card-img-top" alt="Perro adulto">
+                        <div class="card-body text-center">
+                            <h3>Adulto</h3>
+                            <a href="#adulto" class="btn btn-success">Ver cuidados</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow border-0 h-100">
+                        <img src="../huellasSanas/cachorro gato.jpg" class="card-img-top" alt="Cachorro">
+                        <div class="card-body text-center">
+                            <h3 class="card-title">Cachorro</h3>
+                            <a href="#cachorroG" class="btn btn-success">Ver cuidados</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container py-5" id="cachorro">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <img src="../huellasSanas/cachorro2.jpg" class="img-fluid rounded-4 shadow" alt="Cachorro">
+            </div>
+            <div class="col-md-6">
+                <h2> Cuidados para un cachorro </h2>
+                <p>Durante sus primeros meses de vida, los cachorros necesitan cuidados especialespara crecer fuertes y saludables.</p>
+            </div>
+        </div>
+    </section>
+    <section class="container py-5"  id="adulto">
+        <div class="row align-items-center">
+            <div class="col-md-6 order-md-2">
+                <img src="../huellasSanas/adulto2.jpg" class="img-fluid rounded-4 shadow" alt="Perro adulto">
+            </div>
+            <div class="col-md-6 order-md-1">
+                <h2>Cuidados para un perro adulto </h2>
+                <p>En esta etapa los perros necesitan manteneruna rutina saludable que les permita conservarsu energía y bienestar. </p>
+            </div>
+        </div>
+    </section>
+    <section class="container py-5" id="cachorroG">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <img src="../huellasSanas/gato caach2.jpg" class="img-fluid rounded-4 shadow" alt="Cachorro">
+            </div>
+            <div class="col-md-6">
+                <h2> Cuidados para un gato </h2>
+                <p>Durante sus primeros meses de vida, los cachorros necesitan cuidados especialespara crecer fuertes y saludables.</p>
+            </div>
+        </div>
+    </section>
+    
+
+
+
+
+    <div class="section">
         // Sección de Oscar
-        <p> En esta sección, Oscar comparte su experiencia como voluntario en Huellas Sanas. Desde el momento en que se unió al refugio, ha sido testigo de innumerables historias de rescate y adopción que han tocado su corazón. Oscar se dedica a cuidar a los animales, brindándoles amor y atención mientras esperan encontrar un hogar permanente. A través de su trabajo, ha aprendido sobre la importancia de la empatía y la compasión hacia los animales, y se siente agradecido por la oportunidad de marcar una diferencia positiva en sus vidas. </p>
+        <p> En esta sección, Oscar comparte su experiencia como voluntario en Huellas Sanas. Desde el momento en que se
+            unió al refugio, ha sido testigo de innumerables historias de rescate y adopción que han tocado su corazón.
+            Oscar se dedica a cuidar a los animales, brindándoles amor y atención mientras esperan encontrar un hogar
+            permanente. A través de su trabajo, ha aprendido sobre la importancia de la empatía y la compasión hacia los
+            animales, y se siente agradecido por la oportunidad de marcar una diferencia positiva en sus vidas. </p>
     </div>
-    <div class = "section">
+    <div class="section">
         // Sección de Ramiro
-        <p> En esta sección, Juan comparte su experiencia como voluntario en Huellas Sanas. Desde el momento en que se unió al refugio, ha sido testigo de innumerables historias de rescate y adopción que han tocado su corazón. Juan se dedica a cuidar a los animales, brindándoles amor y atención mientras esperan encontrar un hogar permanente. A través de su trabajo, ha aprendido sobre la importancia de la empatía y la compasión hacia los animales, y se siente agradecido por la oportunidad de marcar una diferencia positiva en sus vidas. </p>
+        <p> En esta sección, Juan comparte su experiencia como voluntario en Huellas Sanas. Desde el momento en que se
+            unió al refugio, ha sido testigo de innumerables historias de rescate y adopción que han tocado su corazón.
+            Juan se dedica a cuidar a los animales, brindándoles amor y atención mientras esperan encontrar un hogar
+            permanente. A través de su trabajo, ha aprendido sobre la importancia de la empatía y la compasión hacia los
+            animales, y se siente agradecido por la oportunidad de marcar una diferencia positiva en sus vidas. </p>
 
     </div>
-    <div class = "section">
+    <div class="section">
         // Sección de Valeria
-        <p> En esta sección, Ramiro comparte su experiencia como voluntario en Huellas Sanas. Desde el momento en que se unió al refugio, ha sido testigo de innumerables historias de rescate y adopción que han tocado su corazón. Ramiro se dedica a cuidar a los animales, brindándoles amor y atención mientras esperan encontrar un hogar permanente. A través de su trabajo, ha aprendido sobre la importancia de la empatía y la compasión hacia los animales, y se siente agradecido por la oportunidad de marcar una diferencia positiva en sus vidas. </p>
+        <p> En esta sección, Ramiro comparte su experiencia como voluntario en Huellas Sanas. Desde el momento en que se
+            unió al refugio, ha sido testigo de innumerables historias de rescate y adopción que han tocado su corazón.
+            Ramiro se dedica a cuidar a los animales, brindándoles amor y atención mientras esperan encontrar un hogar
+            permanente. A través de su trabajo, ha aprendido sobre la importancia de la empatía y la compasión hacia los
+            animales, y se siente agradecido por la oportunidad de marcar una diferencia positiva en sus vidas. </p>
 
     </div>
 
-
-    </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 
 
 </html>
