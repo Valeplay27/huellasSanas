@@ -1,1 +1,36 @@
 /*  Identificar que modificacion hicieron con nombre comentario de la seccion */
+
+.header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    box-shadow: 0.1rem 0.2rem .03rem #333;
+}
+
+.navbar {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navegacion-principal {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+img {
+    height: 100px;
+    width: auto;
+}
+
+a {
+    font-size: 20px;
+}
+
+a:hover {
+    color: blueviolet;
+}
