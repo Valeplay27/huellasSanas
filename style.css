@@ -152,6 +152,10 @@ section{
     scroll-margin-top: 100px;
 }
 
+#inicio {
+    padding-top: 90px;
+}
+
 .footer_container {
     background-color: #93B7BE;
     color: #1A2B32;
