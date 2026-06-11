@@ -1,29 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
    <link rel="stylesheet" href="style.css">
     <title> Huellas Sanas </title>
     
 </head>
+
 <body>
     // Seccion de Miguel
-    <div class = "navbar">
+    <div class="navbar">
         <h1> Huellas Sanas </h1>
-        <p> Bienvenidos a Huellas Sanas, un refugio para mascotas sin hogar. Nuestro objetivo es proporcionar un hogar amoroso y seguro para perros y gatos abandonados, ayudándolos a encontrar familias adoptivas que les brinden el cariño que merecen. En Huellas Sanas, creemos que cada animal merece una segunda oportunidad, y trabajamos incansablemente para rescatar, cuidar y reubicar a nuestros amigos peludos en hogares felices. Únete a nosotros en esta noble causa y juntos podemos hacer la diferencia en la vida de estos adorables compañeros. </p>
+        <p> Bienvenidos a Huellas Sanas, un refugio para mascotas sin hogar. Nuestro objetivo es proporcionar un hogar
+            amoroso y seguro para perros y gatos abandonados, ayudándolos a encontrar familias adoptivas que les brinden
+            el cariño que merecen. En Huellas Sanas, creemos que cada animal merece una segunda oportunidad, y
+            trabajamos incansablemente para rescatar, cuidar y reubicar a nuestros amigos peludos en hogares felices.
+            Únete a nosotros en esta noble causa y juntos podemos hacer la diferencia en la vida de estos adorables
+            compañeros. </p>
     </div>
-    <div class = "section">
+    <div class="section">
         // Sección de felipe
-        <p> En esta sección, Felipe comparte su experiencia como voluntario en Huellas Sanas. Desde el momento en que se unió al refugio, ha sido testigo de innumerables historias de rescate y adopción que han tocado su corazón. Felipe se dedica a cuidar a los animales, brindándoles amor y atención mientras esperan encontrar un hogar permanente. A través de su trabajo, ha aprendido sobre la importancia de la empatía y la compasión hacia los animales, y se siente agradecido por la oportunidad de marcar una diferencia positiva en sus vidas. </p>
+        <p> En esta sección, Felipe comparte su experiencia como voluntario en Huellas Sanas. Desde el momento en que se
+            unió al refugio, ha sido testigo de innumerables historias de rescate y adopción que han tocado su corazón.
+            Felipe se dedica a cuidar a los animales, brindándoles amor y atención mientras esperan encontrar un hogar
+            permanente. A través de su trabajo, ha aprendido sobre la importancia de la empatía y la compasión hacia los
+            animales, y se siente agradecido por la oportunidad de marcar una diferencia positiva en sus vidas. </p>
     </div>
-    <div class = "section">
+    <div class="section">
         // Sección de Oscar
-        <p> En esta sección, Oscar comparte su experiencia como voluntario en Huellas Sanas. Desde el momento en que se unió al refugio, ha sido testigo de innumerables historias de rescate y adopción que han tocado su corazón. Oscar se dedica a cuidar a los animales, brindándoles amor y atención mientras esperan encontrar un hogar permanente. A través de su trabajo, ha aprendido sobre la importancia de la empatía y la compasión hacia los animales, y se siente agradecido por la oportunidad de marcar una diferencia positiva en sus vidas. </p>
+        <p> En esta sección, Oscar comparte su experiencia como voluntario en Huellas Sanas. Desde el momento en que se
+            unió al refugio, ha sido testigo de innumerables historias de rescate y adopción que han tocado su corazón.
+            Oscar se dedica a cuidar a los animales, brindándoles amor y atención mientras esperan encontrar un hogar
+            permanente. A través de su trabajo, ha aprendido sobre la importancia de la empatía y la compasión hacia los
+            animales, y se siente agradecido por la oportunidad de marcar una diferencia positiva en sus vidas. </p>
     </div>
-    <div class = "section">
-        // Sección de Ramiro
-        <p> En esta sección, Juan comparte su experiencia como voluntario en Huellas Sanas. Desde el momento en que se unió al refugio, ha sido testigo de innumerables historias de rescate y adopción que han tocado su corazón. Juan se dedica a cuidar a los animales, brindándoles amor y atención mientras esperan encontrar un hogar permanente. A través de su trabajo, ha aprendido sobre la importancia de la empatía y la compasión hacia los animales, y se siente agradecido por la oportunidad de marcar una diferencia positiva en sus vidas. </p>
+
+    <!-- formulario contactenos---Ramiro -->
+
+    <section class="formulario">
+        <div class="container-form">
+            <form action="" class="form-contactenos">
+                <h1>Contactanos</h1>
+                <img src="https://www.shutterstock.com/image-photo/dog-headset-agent-customer-service-600nw-2614182845.jpg"
+                    alt="imagen de mascota">
+
+                <p>¿Tienes preguntas o sugerencias? <br>
+                    Estamos felices de ayudarte.</p>
+
+
+                <div class="field">
+                    <label for="name"> Nombre* </label>
+                    <input type="text" id="name" placeholder="Ej: Andres">
+                </div>
+
+                <div class="field">
+                    <label for="email"> Email* </label>
+                    <input type="email" id="email" placeholder="Ej: correo@correo.com">
+                </div>
+
+                <div class="field">
+                    <label for="tipo"> Tipo de consulta </label>
+                    <select class="option" id="tipo">
+                        <option value="">Seleccione una opcion</option>
+                        <option value="adopcion">Adopción</option>
+                        <option value="salud">Salud y cuidados</option>
+                        <option value="alimentacion">Alimentación</option>
+                        <option value="entrenamiento">Entrenamiento</option>
+
+                    </select>
+                </div>
+
+                <div class="field">
+                    <label for="mensaje"> Mensaje </label>
+                    <textarea name="mensaje" id="mensaje" placeholder="Escribe tu pregunta..."></textarea>
+                </div>
+
+                <div class="field">
+                    <button class="enviar"> Enviar </button>
+                </div>
+
+            </form>
+
+            <section class="preguntas-frecuentes">
+                <h2>Preguntas Frecuentes</h2>
+
+                <details>
+                    <summary>¿Cómo puedo adoptar una mascota?</summary>
+                    <p>
+                        Puedes revisar nuestra sección de adopciones y completar el formulario correspondiente.
+                    </p>
+                </details>
+
+                <details>
+                    <summary>¿Qué tipo de mascotas aparecen en el blog?</summary>
+                    <p>
+                        Compartimos información sobre perros, gatos, aves, peces y otras mascotas domésticas.
+                    </p>
+                </details>
+
+                <details>
+                    <summary>¿Puedo enviar la historia de mi mascota?</summary>
+                    <p>
+                        Sí, puedes contactarnos mediante el formulario y compartir fotos e información de tu
+                        mascota.
+                    </p>
+                </details>
+            </section>
+
+            <p>"Si tu mascota presenta una emergencia médica, contacta inmediatamente a un veterinario. <br> Este
+                blog tiene fines informativos y no reemplaza la atención profesional."</p>
+
+        </div>
+    </section>
 
     </div>
    /* Seccion de Valeria */
