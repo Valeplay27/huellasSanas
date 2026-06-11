@@ -1,1 +1,99 @@
-/*  Identificar que modificacion hicieron con nombre comentario de la seccion */
+/* Realizado por valeria */
+/* Ese primer campo es para eliminar los bordes del html */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_container {
+    background-color: #93B7BE;
+    color: #1A2B32;
+    padding: 30px 40px 15px 40px; 
+    margin-top: auto; 
+    font-family: sans-serif;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.footer_columns {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 25px; 
+}
+
+
+.footer_brand {
+    flex: 1.2;
+    text-align: left;
+}
+
+.footer_brand h2 {
+    margin-top: 0;
+    color: #1A2B32;
+    font-size: 1.2rem; 
+}
+
+.footer_brand p {
+    font-size: 0.85rem; 
+    line-height: 1.5;
+    max-width: 320px;
+    color: rgba(26, 43, 50, 0.9);
+}
+
+
+.footer_column_center,
+.footer_column_right {
+    flex: 1;
+}
+
+.footer_column_center { text-align: center; }
+.footer_column_right { text-align: right; }
+
+
+.footer_columns h3 {
+    font-size: 0.9rem; 
+    margin-bottom: 12px; 
+    color: #1A2B32;
+    letter-spacing: 1px;
+}
+
+.footer_columns ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    text-align: left;
+}
+
+
+.footer_columns ul li {
+    margin-bottom: 6px; 
+    font-size: 0.85rem; 
+}
+
+.footer_columns a {
+    color: #1A2B32;
+    text-decoration: none;
+}
+
+.footer_columns a:hover {
+    color: #2E6F40;
+    text-decoration: underline;
+}
+
+
+.footer_bottom {
+    max-width: 1200px;
+    margin: 20px auto 0 auto; 
+    padding-top: 15px;
+    border-top: 1px solid rgba(26, 43, 50, 0.15);
+    text-align: center;
+    font-size: 0.75rem; 
+    color: rgba(26, 43, 50, 0.7);
+    letter-spacing: 0.5px;
+}
