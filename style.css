@@ -18,6 +18,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     color: var(--texto);
+    padding-top: 90px;
 }
 
 html, body {
@@ -32,8 +33,10 @@ html, body {
 header{
     background-color: var(--blanco);
     box-shadow: 0 2px 10px rgba(0,0,0,0.08);
-    position: sticky;
+    position: fixed;
+    width: 100%;
     top: 0;
+    left: 0;
     z-index: 1000;
 }
 
@@ -117,6 +120,12 @@ html {
     color: white;
 }
 
+#inicio,
+#quienes_somos,
+#contactenos{
+    scroll-margin-top: 100px;
+}
+
 @media (max-width: 768px){
 
     .navbar{
@@ -137,6 +146,10 @@ html {
     .navegacion-principal a{
         font-size: 1rem;
     }
+}
+
+section{
+    scroll-margin-top: 100px;
 }
 
 .footer_container {
