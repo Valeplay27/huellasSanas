@@ -9,23 +9,24 @@
     max-width: 800px;
     margin: 0 auto;
     padding: 30px;
-    background-color: #fff8f0;
+    background-color: #D4F5F5;  /* Fondo azul clarito */
     font-family: Arial, sans-serif;
 }
 
 .quienes-somos h2 {
     text-align: center;
-    color: #d4782c;
+    color: #554348;  /* Título marrón */
     font-size: 32px;
 }
 
 .descripcion-grupo {
     text-align: center;
     font-size: 18px;
+    color: #554348;
     margin-bottom: 30px;
 }
 
-/* Misión y Visión - una abajo de la otra */
+/* Misión y Visión */
 .mision-vision {
     margin-bottom: 30px;
 }
@@ -36,10 +37,15 @@
     border-radius: 15px;
     margin-bottom: 20px;
     text-align: center;
+    border-bottom: 3px solid #93B7BE;
 }
 
 .card-mv h3 {
-    color: #d4782c;
+    color: #93B7BE;
+}
+
+.card-mv p {
+    color: #554348;
 }
 
 .icono-mv {
@@ -52,10 +58,11 @@
     padding: 20px;
     border-radius: 15px;
     margin-bottom: 30px;
+    border-left: 5px solid #93B7BE;
 }
 
 .circulo-foto {
-    background: #d4782c;
+    background: #93B7BE;
     width: 80px;
     height: 80px;
     border-radius: 50%;
@@ -64,26 +71,29 @@
     justify-content: center;
     font-size: 40px;
     margin: 0 auto 15px;
+    border: 2px solid #554348;
 }
 
 .texto-testimonio h3 {
     text-align: center;
-    color: #d4782c;
+    color: #554348;
 }
 
 .rol {
     text-align: center;
     font-style: italic;
+    color: #8C9A9E;
 }
 
 .texto-testimonio p {
     line-height: 1.6;
+    color: #554348;
 }
 
-/* Equipo - una persona abajo de la otra */
+/* Equipo */
 .equipo h3 {
     text-align: center;
-    color: #d4782c;
+    color: #554348;
 }
 
 .miembro {
@@ -95,7 +105,7 @@
 }
 
 .avatar {
-    background: #f5a65a;
+    background: #8C9A9E;
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -104,15 +114,21 @@
     justify-content: center;
     font-size: 30px;
     margin: 0 auto 10px;
+    border: 2px solid #93B7BE;
 }
 
 .miembro h4 {
-    color: #d4782c;
+    color: #93B7BE;
     margin: 10px 0 5px;
+}
+
+.miembro p {
+    color: #747578;
 }
 
 .patitas {
     text-align: center;
     font-size: 20px;
     margin-top: 20px;
+    color: #93B7BE;
 }
