@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 /* Realizado por valeria */
 /* Ese primer campo es para eliminar los bordes del html */
@@ -310,4 +311,82 @@ html, body {
         font-size: 1.8rem;
     }
 
+=======
+:root{
+    --verde-principal: #6CC6B9;
+    --verde-hover: #57B3A6;
+    --texto: #333;
+    --blanco: #fff;
+}
+
+header{
+    background-color: var(--blanco);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0.8rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img{
+    height: 70px;
+    width: auto;
+    transition: transform 0.3s ease;
+}
+
+.logo img:hover{
+    transform: scale(1.05);
+}
+
+.navegacion-principal{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.navegacion-principal a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--texto);
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 1rem 1.5rem;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+
+.navegacion-principal a:hover{
+    background-color: var(--verde-principal);
+    color: white;
+}
+
+@media (max-width: 768px){
+
+    .navbar{
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .logo img{
+        height: 60px;
+    }
+
+    .navegacion-principal{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .navegacion-principal a{
+        font-size: 1rem;
+    }
+>>>>>>> miguel-saldana
 }
