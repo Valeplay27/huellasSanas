@@ -1,36 +1,83 @@
-/*  Identificar que modificacion hicieron con nombre comentario de la seccion */
-
-.header {
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    box-shadow: 0.1rem 0.2rem .03rem #333;
+/* Variables de color */
+:root{
+    --verde-principal: #6CC6B9;
+    --verde-hover: #57B3A6;
+    --texto: #333;
+    --blanco: #fff;
 }
 
-.navbar {
-    padding: 20px;
+/* Header */
+header{
+    background-color: var(--blanco);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Contenedor */
+.navbar{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0.8rem 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.navegacion-principal {
-    display: block;
-    flex-direction: column;
-    align-items: center;
-    gap: 2rem;
-}
-
-img {
-    height: 100px;
+/* Logo */
+.logo img{
+    height: 70px;
     width: auto;
+    transition: transform 0.3s ease;
 }
 
-a {
-    font-size: 20px;
+.logo img:hover{
+    transform: scale(1.05);
 }
 
-a:hover {
-    color: blueviolet;
+/* Navegación */
+.navegacion-principal{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.navegacion-principal a{
+    text-decoration: none;
+    color: var(--texto);
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+
+/* Hover */
+.navegacion-principal a:hover{
+    background-color: var(--verde-principal);
+    color: white;
+}
+
+/* Responsive */
+@media (max-width: 768px){
+
+    .navbar{
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .logo img{
+        height: 60px;
+    }
+
+    .navegacion-principal{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .navegacion-principal a{
+        font-size: 1rem;
+    }
 }
