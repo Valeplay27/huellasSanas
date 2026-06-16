@@ -140,7 +140,7 @@ html {
 
 .quienes-somos h2 {
     text-align: center;
-    color: #d4782c;
+    color: #EAF5EA;
     font-size: 32px;
 }
 
@@ -172,7 +172,7 @@ section{
 }
 
 .card-mv h3 {
-    color: #d4782c;
+    color: #EAF5EA;
 }
 
 .icono-mv {
@@ -188,7 +188,7 @@ section{
 }
 
 .circulo-foto {
-    background: #d4782c;
+    background: #EAF5EA;
     width: 80px;
     height: 80px;
     border-radius: 50%;
@@ -201,7 +201,7 @@ section{
 
 .texto-testimonio h3 {
     text-align: center;
-    color: #d4782c;
+    color: #EAF5EA;
 }
 
 .rol {
@@ -216,7 +216,7 @@ section{
 /* Equipo - una persona abajo de la otra */
 .equipo h3 {
     text-align: center;
-    color: #d4782c;
+    color: #EAF5EA;
 }
 
 .miembro {
@@ -240,7 +240,7 @@ section{
 }
 
 .miembro h4 {
-    color: #d4782c;
+    color: #EAF5EA;
     margin: 10px 0 5px;
 }
 
