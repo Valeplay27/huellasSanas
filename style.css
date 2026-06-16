@@ -127,6 +127,67 @@ html {
     scroll-margin-top: 100px;
 }
 
+.portada {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #93B7BE;
+}
+.portada h1 {
+    color: #1A2B32;
+    font-weight: bold;
+}
+.portada p {
+    font-size: 18px;
+    color: #1A2B32;
+}
+
+.portada2 h1 {
+    color: #2E6F40;
+}
+.portada2 p {
+    color: #1A2B32;
+}
+.portada2 img {
+    max-width: 90%;
+}
+.mascotas {
+    background-color: #F4F7F6;
+}
+.mascotas h2 {
+    color: #2E6F40;
+}
+.card {
+    border-radius: 20px;
+}
+.card:hover {
+    transform: translateY(-5px);
+}
+.card img {
+    height: 250px;
+}
+.card h3 {
+    color: #2E6F40;
+}
+#cachorroG h2,
+#cachorro h2,
+#adulto h2 {
+    color: #2E6F40;
+}
+#cachorroG p,
+#cachorro p,
+#adulto p {
+    font-size: 17px;
+    line-height: 1.6;
+}
+.btn-success {
+    background-color: #2E6F40;
+    border-color: #2E6F40;
+}
+.btn-success:hover {
+    background-color: #0284C7;
+    border-color: #0284C7;
+}
+
 /*  Estilos quienes somos */
 
 /* Testimonio destacado */
